@@ -6,6 +6,9 @@
 // TODO 1:
 // Buat function bernama tampilkanPesan() yang menerima String pesan
 // lalu mencetak pesan tersebut.
+tampilkanPesan(String pesan) {
+  print(pesan);
+}
 
 void main() {
   // TODO 2:
@@ -15,28 +18,48 @@ void main() {
   //
   // Perhatikan bahwa "Coding" muncul dua kali.
   // Tampilkan Set tersebut dan lihat hasilnya.
+ Set<String> ekstrakurikuler = {
+  "Coding",
+  "English Club",
+  "Coding",
+  "Basket"
+ };
+
+ print(ekstrakurikuler);
 
   // TODO 3:
   // Tambahkan "Robotics" ke dalam Set.
-
+ekstrakurikuler.add("Robotics");
   // TODO 4:
   // Buat Map<String, dynamic> bernama siswa.
   // Isi dengan:
   // nama  : "Aisyah"
   // kelas : "10 RPL"
   // umur  : 16
-
+Map<String, dynamic> siswa = {
+  "nama": "Aisyah",
+  "kelas": "10 RPL",
+  "umur" : 16
+};
   // TODO 5:
   // Tampilkan hanya nama dan kelas dari Map tersebut.
-
+print(siswa["nama"]);
+print(siswa["kelas"]);
   // TODO 6:
   // Panggil function tampilkanPesan()
   // dengan pesan "Selamat belajar Dart!".
-
+tampilkanPesan("Selamat Belajar Dart!"); 
   // TODO 7:
   // Buat function int hitungJumlah(int a, int b)
   // yang mengembalikan hasil penjumlahan a + b.
   //
   // Panggil function tersebut dengan angka 10 dan 20,
   // lalu tampilkan hasilnya.
+int hasil = hitungJumlah(10, 20);
+  print(hasil);
 }
+
+int hitungJumlah(int a, int b) {
+  return a + b;
+}
+

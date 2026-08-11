@@ -5,6 +5,21 @@
 
 // TODO 1:
 // Buat class bernama Siswa.
+class Siswa {
+  String nama;
+  String kelas;
+  int umur;
+
+  Siswa(this.nama, this.kelas, this.umur);
+
+  void belajar() {
+    print("$nama sedang belajar");
+  }
+
+  void perkenalan() {
+    print("halo saya $nama, kelas $kelas, umur saya $umur tahun");
+  }
+}
 
 // TODO 2:
 // Di dalam class Siswa, buat 3 property:
@@ -37,10 +52,12 @@ void main() {
   // nama  = "Aisyah"
   // kelas = "10 RPL"
   // umur  = 16
+  var siswa1 = Siswa("Aisyah", "10 RPL", 16);
 
   // TODO 7:
   // Panggil method perkenalan().
-
+siswa1.perkenalan();
   // TODO 8:
   // Panggil method belajar().
+  siswa1.belajar();
 }
