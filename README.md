@@ -1,67 +1,20 @@
-# Dart Basic & OOP Challenge
-
-Paket latihan ini dibuat untuk siswa yang sudah mempelajari:
-- Variable dan tipe data
-- Operator
-- if / else
-- Loop
-- Function
-- List, Set, Map
-- Null Safety
-- Class, Object, Property, Method, Constructor
-- Dasar 4 pilar OOP
-
-## Cara menjalankan
-
-Masuk ke folder project melalui terminal, lalu jalankan salah satu file:
-
-```bash
-dart run challenge/01_variable_operator.dart
-```
-
-atau:
-
-```bash
-dart run challenge/06_class_object_constructor.dart
-```
-
-Untuk mengecek kunci jawaban:
-
-```bash
-dart run kunci_jawaban/01_variable_operator.dart
-```
-
-## Aturan latihan
-
-1. Jangan membuka folder `kunci_jawaban` sebelum mencoba sendiri.
-2. Kerjakan TODO sesuai urutan.
-3. Setelah selesai, jalankan file menggunakan `dart run`.
-4. Jika error, baca pesan error dan cari baris yang bermasalah.
-5. Setelah berhasil, coba ubah data dan lihat perubahan output.
-
-## Urutan tingkat kesulitan
-
 01. Variable & Operator
+<img width="1368" height="272" alt="Screenshot 2026-08-12 at 07 35 22" src="https://github.com/user-attachments/assets/d1f086c8-fd9f-4bd2-9151-e7c3eae1c772" />
+
 02. If / Else
+<img width="1368" height="272" alt="Screenshot 2026-08-12 at 07 37 35" src="https://github.com/user-attachments/assets/7290c0f4-d047-4614-9106-1ea70275c3ae" />
+
 03. List & Loop
+<img width="1368" height="272" alt="Screenshot 2026-08-12 at 07 38 11" src="https://github.com/user-attachments/assets/69bcd76e-5d64-4a7b-af7c-c25918669682" />
+
 04. Set, Map & Function
+<img width="1368" height="272" alt="Screenshot 2026-08-12 at 07 38 47" src="https://github.com/user-attachments/assets/ea80b28a-81c1-46a3-a3ec-e161f78f9593" />
+
 05. Null Safety
+<img width="1368" height="272" alt="Screenshot 2026-08-12 at 07 39 10" src="https://github.com/user-attachments/assets/fbf8da14-2ed6-4037-9a2e-4db5319b99d4" />
+
 06. Class, Object, Constructor & Method
+<img width="1368" height="272" alt="Screenshot 2026-08-12 at 07 39 53" src="https://github.com/user-attachments/assets/99ecbbfa-69b5-4832-ba97-ca93bbe2f4c1" />
+
 07. Dasar 4 Pilar OOP
-
-## Target akhir
-
-Setelah challenge selesai, siswa diharapkan mampu:
-- Membuat dan menggunakan variable.
-- Menggunakan operator.
-- Membuat percabangan.
-- Membuat perulangan.
-- Menggunakan List, Set, dan Map.
-- Membuat dan memanggil function.
-- Memahami null safety dasar.
-- Membuat class dan object.
-- Menggunakan constructor untuk mengisi property.
-- Membuat inheritance.
-- Melakukan override untuk polymorphism.
-- Memahami abstraction melalui abstract class.
-- Menggabungkan beberapa konsep dalam satu program.
+<img width="1368" height="272" alt="Screenshot 2026-08-12 at 07 40 37" src="https://github.com/user-attachments/assets/e5586b66-e2ec-458e-b919-304fb92a68fd" />
