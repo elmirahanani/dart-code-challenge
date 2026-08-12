@@ -21,10 +21,10 @@ int hargaPensil = 5000;
 int jumlahPensil = 2;
   // TODO 6:
   // Hitung total harga buku dan simpan ke variable totalBuku.
-int totalBuku = (jumlahBuku + hargaBuku);
+int totalBuku = (jumlahBuku * hargaBuku);
   // TODO 7:
   // Hitung total harga pensil dan simpan ke variable totalPensil.
-int totalPensil = (jumlahPensil + hargaPensil);
+int totalPensil = (jumlahPensil * hargaPensil);
   // TODO 8:
   // Hitung total seluruh belanja dan simpan ke variable totalBelanja.
  int totalBelanja = (totalBuku + totalPensil);

@@ -32,5 +32,5 @@ print(nomorTelepon ?? "nomor telepon belum tersedia");
   //
   // Gunakan ! dengan aman untuk menampilkan jumlah karakter nama.
   String? nama = "Aisyah";
-  print("jumlah karakter nama");
+  print("jumlah karakter $nama");
 }
